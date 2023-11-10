@@ -6,7 +6,7 @@ users: #Benutzerkonfiguration
     home: /home/ubuntu #Home verzeichnis
     shell: /bin/bash #man gibt an, dass standardshell bash ist
     ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjeUEfHF/l/T1tYThfhEOO/SN+QLaCy9uLQ+uaZE25DHqclEilkz5xU2umEa4D1M3g2xZNcGeUEzUd0lXkeHjXzZpyPqoJ8bZaPvH7zPniWKOiIn/j/CrbqSS34GT29gHd171dlYKz0cc3gmfKIZia0CKz8QmYqPDBe9i9mEX5oMrS1juXdbtOJb4RLCMomHptn0hJoM+orqCVJ5eIHvku26YaP0TOwpdlH6k9EVVNBN1bRU8e1ymnz+xRP1tJTJMLtvrSqdYjfn4TcsOqF3M7Yos2fRf/j46N74rcevbGrqrL43cUMyc65ar8V+zJL9y3LSQMy0xr8xb+VNDnHi9X
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjeUEfHF/l/T1tYThfhEOO/SN+QLaCy9uLQ+uaZE25DHqclEilkz5xU2umEa4D1M3g2xZNcGeUEzUd0lXkeHjXzZpyPqoJ8bZaPvH7zPniWKOiIn/j/CrbqSS34GT29gHd171dlYKz0cc3gmfKIZia0CKz8QmYqPDBe9i9mEX5oMrS1juXdbtOJb4RLCMomHptn0hJoM+orqCVJ5eIHvku26YaP0TOwpdlH6k9EVVNBN1bRU8e1ymnz+xRP1tJTJMLtvrSqdYjfn4TcsOqF3M7Yos2fRf/j46N74rcevbGrqrL43cUMyc65ar8V+zJL9y3LSQMy0xr8xb+VNDnHi9X aws-key
 ssh_pwauth: false # Diese Zeile deaktiviert die SSH-Passwortauthentifizierung für den Benutzer "ubuntu", sodass nur der SSH-Schlüssel für die Authentifizierung verwendet wird.
 disable_root: false #man gibt an, dass der root-benutzer nicht deaktiviert ist
 package_update: true #system wird beim start aktualisiert
